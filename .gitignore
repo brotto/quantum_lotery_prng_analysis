@@ -107,8 +107,10 @@ temp/
 # Output files that can be regenerated
 output/*.png
 output/*.html
-output/*.json
 output/cache/
+
+# Large output files (>100MB) - keep structure but not content
+**/quantum_analysis_report_*.json
 
 # Sensitive information
 secrets/
