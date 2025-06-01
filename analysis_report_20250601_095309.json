@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-06-01 09:53:09",
+  "analysis_summary": {
+    "total_drawings": 2870,
+    "number_range": [
+      1,
+      60
+    ],
+    "randomness_test_p_values": {
+      "chi_square": 0.054868643633433495,
+      "kolmogorov_smirnov": 0.005359053439713976,
+      "runs_test": 0.0
+    }
+  },
+  "detailed_results": {
+    "basic_stats": {
+      "total_drawings": 2870,
+      "number_range": [
+        1,
+        60
+      ],
+      "mean_numbers": [
+        8.574216027874565,
+        17.34808362369338,
+        26.34076655052265,
+        35.088501742160275,
+        43.585017421602785,
+        52.2184668989547
+      ],
+      "std_numbers": [
+        6.966062380014396,
+        9.117950753553485,
+        9.978840511251077,
+        9.788771220438985,
+        9.019351161972338,
+        6.946435710360573
+      ],
+      "frequency_distribution": {
+        

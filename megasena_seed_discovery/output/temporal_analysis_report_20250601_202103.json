@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-06-01T20:21:03.194604",
+  "total_draws": 2870,
+  "analysis_methods": [
+    "sliding_window",
+    "distribution_shift",
+    "pca_based",
+    "outlier_based",
+    "autocorrelation",
+    "stationarity",
+    "ml_based"
+  ],
+  "change_points": [
+    1400
+  ],
+  "regimes": [
+    {
+      "start_index": 0,
+      "end_index": 1400,
+      "duration": 1400,
+      "start_concurso": 1,
+      "end_concurso": 1400,
+      "mean_sum": 183.48785714285714,
+      "std_sum": 40.125141927529434,
+      "mean_range": 43.86142857142857,
+      "correlation_pattern": 0.05530511899346782,
+      "entropy": 0.9991913675576122,
+      "dominant_patterns": {
+        "sum_pattern": {
+          "mean": 183.48785714285714,
+          "std": 40.11080895978244
+        },
+        "even_pattern": {
+          "mean": 2.980714285714286
+        },
+        "range_pattern": {
+          "mean": 43.86142857142857
+        }
+      }
+    },
+    {
+      "start_index": 1400,
+      "end_index": 2870,
+      "duration": 1470,
+      "start_concurso": 1401,
+      "end_concurso": 2870,
+      "mean_sum": 182.83809523809524,
+      "std_sum": 39.74643479280086,
+      "mean_range": 43.43741496598639,
+      "correlation_pattern": 0.053996740722404436,
+      "entropy": 0.998792742446489,
+      "dominant_patterns": {
+        "sum_pattern": {
+          "mean": 182.83809523809524,
+          "std": 39.732913297327826
+        },
+        "even_pattern": {
+          "mean": 3.0448979591836736
+        },
+        "range_pattern": {
+          "mean": 43.43741496598639
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_change_points": 1,
+    "total_regimes": 2,
+    "average_regime_duration": 1435.0
+  }
+}
